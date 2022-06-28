@@ -1,0 +1,180 @@
+/**{
+	margin: 0px;
+	padding: 0px;
+}*/
+/*common code start*/
+body{
+	font-family:sans-serif;
+	font-weight: 400;
+	font-size:16px;
+	color:#0f2656;
+
+}
+/*common code end*/
+
+/*Header start*/
+header{
+border-bottom: 2px solid #ddd;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	
+}
+.logo{
+	width:10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right; 
+	width:50%;	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #0f2656;
+	text-decoration: none;
+	margin: 0 20px;
+	display:inline-block;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+.menu ul li:nth-child(5) a{
+	margin-right: 0;
+}
+/*Header end*/
+/*banner start*/
+.banner{
+	padding: 50px 0;
+}
+.container2{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.b_h1{
+	font-size: 50px;
+	margin: 0px;
+	padding: 0 50px;
+}
+.b_h1 span{
+	color: #008aff;
+}
+.b_p{
+	margin: 16px 0;
+	line-height: 25px;
+}
+.b_imag{
+	width: 75%;
+    margin: 0 auto;
+    
+}
+.b_imag img{
+	width: 100%;
+}
+/*banner end*/
+/*success start*/
+.success{
+	padding: 50px 0;
+}
+.container3{
+	margin: 0 auto;
+	width: 60%;
+	overflow: hidden;
+}
+.s_left{
+	padding-left: 5px;
+	float: left;
+	width: 47%;
+	text-align: right;
+}
+.s_left h2{
+	margin: 0;
+	font-size: 40px;
+	color:#f15767; 
+}
+.s_left p{
+	margin: 5px 0 0;
+	margin-left: 25px;
+	line-height: 25px;
+}
+.s_right{
+	
+	padding-right:10px;
+	float: right;
+	width: 47%;
+}
+.s_right h1{
+	margin: 0;
+	font-size: 45px;
+}
+
+
+/*success end*/
+/*feature star*/
+.feature{
+	padding-bottom: 50px;
+}
+
+.f_single{
+	margin-right: 2.51%;
+	padding: 50px 2.32%;
+	width: 27.019%;
+	
+	float: left;
+}
+.f_single:last-child{
+	margin-right: 0px;
+
+}
+.f_single h2{
+	margin: 20px 0;
+	font-size: 25px;
+}
+.f_single p{
+	margin: 0;
+	line-height: 25px;
+}
+.f_img{}
+.f_img img{
+	width: 100%;
+}
+.red{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.pink{
+	background-color: #fff7e8;
+}
+/*feature end*/
+/*Footer star*/
+footer{
+	padding: 30px 0;
+	text-align: center;
+	background-color:#008aff;
+	color: white;
+}
+footer p{
+	margin: 0;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+}
+footer p a:hover{
+	color:#0f2656; 
+}
+/*Footer end*/
